@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<body>
+    <form>
+        <fieldset>
+            <legend><b>Datos personales y envios</b></legend>
+            <label for="fname">Nombre</label>
+            <input type="text" id="fname" name="fname" size="15"><br>
+            <label for="lname">Apellidos</label>
+            <input type="text" id="lname" name="lname" size="30"><br>
+            <label for="fname">Domicilio</label>
+            <input type="text" id="fname" name="fname" size="15"><br>
+            <label for="fname">Localidad</label>
+            <input type="text" id="fname" name="fname" size="15"><br>
+            <label for="fname">Codigo postal</label>
+            <input type="text" id="fname" name="fname" size="5"><br>
+            <label for="fname">Telefono</label>
+            <input type="text" id="fname" name="fname" size="9"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Elija la opción de entrega</b></legend>
+            <input type="radio" id="fname" name="fname">
+            <label for="fname">Recoger en el local</label><br>
+            <input type="radio" id="fname" name="fname">
+            <label for="fname">Enviar a domicilio</label><br> 
+        </fieldset>
+
+        <fieldset>
+            <legend><b>¿Quiere que le enviemos nuestras ofertas?</b></legend>
+            <input type="checkbox" id="fname" name="fname">
+            <label for="fname">Enviar al domicilio</label><br>
+            <input type="checkbox" id="fname" name="fname">
+            <label for="fname">Enviar por email</label><br> 
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Elija su menú</b></legend>
+            <label for="tamano">Tamaño del bocadillo</label><br>
+            <select id="bocadillo" name="bocadillos" size="4">
+                <option value="pe">Pequeño</option>
+                <option value="me">Mediano</option>
+                <option value="gr">Grande</option>
+                <option value="en">Enorme</option>
+            </select>
+            <br>
+            <label for="contenido">Contenido del bocadillo</label><br>
+            <select id="bocadillo" name="bocadillos" size="4">
+                <option value="anc">Anchoas</option>
+                <option value="cal">Calamares</option>
+                <option value="mej">Mejillones</option>
+                <option value="jam">Jamon</option>
+            </select>
+            <br>
+
+            <label for="sug">Puede añadir alguna sugerencia</label><br>
+            <textarea name="message" rows="10" cols="50">
+                Por ejemplo, que calienten el pan, etc...
+                </textarea>
+        </fieldset>
+        <br>
+
+        <button type="button">Enviar datos</button>
+        <button type="reset">Limpiar todo</button>
+    </form>
+
+
+</body>
