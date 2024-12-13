@@ -1,0 +1,57 @@
+div.cabecera{
+    background-color: orange;
+    margin-bottom: 20px;
+}
+
+div.colizq{
+    background-color: purple;
+    float: left;
+    width: 1050px;
+    text-align: justify;
+    padding: 50px;
+}
+
+div.colder{
+    background-color: cadetblue;
+    float: right;
+    width: 300px;
+    text-align: justify;
+    height: 564px;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+div.pie{
+    background-color: gray;
+    width: 100%;
+    clear: both;
+    margin-top: 670px;
+}
+
+div.menu{
+    background-color: chartreuse;
+    padding: 5px;
+    margin-bottom: 20px;
+    padding-left: 550px;
+    text-align: justify;
+
+}
+
+h1.titulo{
+    float: left;
+    border: 2px solid white;
+    margin-right: 20px;
+    margin-top: 70px;
+    margin-left: 20px;
+    padding-right: 150px;
+}
+
+img{
+    margin-left: 850px;
+    width: 160px;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+
+
