@@ -1,0 +1,42 @@
+body{
+    margin: 0% auto;
+    width: 800px;
+}
+
+.cabecera{
+    background-color: red;
+    margin-bottom: 10px;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+.colizq{
+    background-color: #fcf;
+    text-align: justify;
+    padding: 50px;
+    overflow: scroll;
+    height: 130px;
+}
+
+.pie{
+    background-color: gray;
+    clear: both;
+}
+
+.menu{
+    background-color: purple;
+    padding: 5px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding: 30px;
+    text-align: justify;
+
+}
+
+.menu a{
+    border: grey solid;
+    padding: 10px;
+    color: gray;
+    text-decoration: none;
+}
