@@ -1,0 +1,25 @@
+p {
+    border: 5px solid;
+}
+
+#p1 {
+    background-color: blue;
+    margin: 0px;
+    padding: 0px;
+}
+
+#p2 {
+    background-color: green;
+    margin: 5px;
+    padding: 5px;
+}
+
+#p3 {
+    background-color: yellow;
+    margin: 0px;
+    padding: 20px;
+}
+
+body {
+    margin: 0px;
+}
