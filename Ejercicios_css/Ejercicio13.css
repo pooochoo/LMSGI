@@ -19,6 +19,16 @@ body{
     height: 130px;
 }
 
+.colizq img{
+    width: 300px;
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+
 .pie{
     background-color: gray;
     clear: both;
