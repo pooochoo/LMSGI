@@ -1,0 +1,68 @@
+#contenedor{
+    background-color: rgba(221, 255, 0, 0.704);
+    width: 70%;
+    margin: auto;
+}
+
+#SupI{
+    float: left;
+    padding-left: 30px;
+}
+
+#SupI h1{
+    color: rgba(255, 0, 0, 0.878);
+    font-size: 210%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#SupI h3{
+    color: rgb(48, 29, 221);
+}
+
+#SupD{
+    float: right;
+    padding-right: 30px;
+}
+
+#Central{
+    clear: both;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#Central #MedI{
+    width: 70%;
+    float: left;
+    width: 45%;
+    padding-right: 30px;
+}
+
+#Central #MedD{
+    float: right;
+    width: 50%;
+}
+
+
+#Pie{
+    clear: both;
+    font-family: Arial, sans-serif;
+}
+
+#Central fieldset{
+    color: rgb(177, 17, 166);
+    font-weight: bolder;
+}
+
+#Central fieldset legend{
+    color: rgba(31, 182, 31, 0.889);
+}
+
+.boton{
+    background-color: transparent;
+    border-color: red;
+    color: red;
+    font-weight: bolder;
+}
+
+
