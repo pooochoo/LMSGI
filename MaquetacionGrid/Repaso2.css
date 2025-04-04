@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(hero.jpg);
+    color: white;
+    text-align: center;
+    gap: 20px;
+}
+
+.hero-text h1{
+    font-size: 120px;
+}
+
+.hero-text p{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hero-text .btn{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.hero-text .btn:hover{
+    background-color: grey;
+    transform: scale(1.1);
+}

@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(WIN_20240112_13_41_25_Pro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+}
+
+.nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav a:hover{
+    color: blue;
+    transform: scale(1.1);
+}
+
+.btn{
+    background-color: #ff9900;
+    color: white;
+    padding: 25px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 30px;
+
+}
+
+.titulo h1{
+    font-weight: 180px;
+}

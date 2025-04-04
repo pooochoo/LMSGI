@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.store{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.store-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.store-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+img{
+    width: 100%;
+    height: auto;
+}

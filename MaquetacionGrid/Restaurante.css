@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    background-color: wheat;
+    padding: 20px;
+}
+
+.texto {
+    flex: 1;
+    padding: 20px;
+}
+
+.imagen {
+    flex: 1;
+}
+
+.imagen img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.texto h1 {
+    font-size: 100px;
+}

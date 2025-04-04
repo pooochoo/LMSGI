@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container > *{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template: 
+        "header" 100px
+        "navbar" 50px
+        "main" 300px
+        "sidebar" 100px 
+        "footer" 100px;
+    gap: 10px;
+    margin: 10px;
+}
+
+.header{
+    grid-area: header;
+    background-color: aqua;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+    background-color: lightcoral;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: lightgreen;
+}
+
+.navbar{
+    grid-area: navbar;
+    background-color: lightblue;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: lightgoldenrodyellow;
+}
+
+@media (min-width: 768px){
+    .grid-container{
+        grid-template: 
+            "header header header header header" 100px
+            "navbar main main main sidebar" 300px
+            "footer footer footer footer footer" 100px;
+    }
+    
+}
+
+@media (min-width: 1024px){
+    .grid-container{
+        grid-template: 
+            "header header header header header" 100px
+            "navbar main main main sidebar" 300px
+            "footer footer footer footer footer" 100px;
+    }
+}
+
+.grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwuUTqBiSCa5AoHx97A44R1aOPcnwBUI_GQw&s');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
