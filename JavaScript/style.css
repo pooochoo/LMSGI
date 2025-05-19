@@ -1,0 +1,16 @@
+.accordion-body{
+    display: none;
+}
+
+.accordion-item{
+    display: flex;
+}
+
+.active{
+    display: block;
+}
+
+.btn{
+    border: none;
+    background-color: transparent;
+}

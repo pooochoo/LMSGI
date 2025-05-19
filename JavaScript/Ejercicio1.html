@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de Descuento</title>
+</head>
+<body>
+    <p>Introduce el precio:</p>
+    <input type="text" id="precio">
+    <p>Introduce el descuento</p>
+    <input type="text" id="descuento">
+
+    <button onclick="calcularDesc()";>Calcular</button>
+    
+    <h3 id="resultado"></h3>
+
+    <script>
+        function calcularDesc() {
+            const precio = parseFloat(document.getElementById('precio').value);
+            const descuento = parseFloat(document.getElementById('descuento').value);
+
+        if (isNaN(precio) || isNaN(descuento)) {
+            document.getElementById('resultado').textContent = "Por favor, introduce valores válidos.";
+            return;
+        }
+
+        const total = precio - (precio * (descuento / 100));
+        document.getElementById('resultado').textContent = `Total con descuento: €${total.toFixed(2)}`;
+        }
+    </script>
+</body>
+</html>

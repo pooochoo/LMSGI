@@ -7,6 +7,13 @@ body {
     color: black;
 }
 
+#btn{
+    margin: 20px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
 header {
     background: #222;
     color: white;

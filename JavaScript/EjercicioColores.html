@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores</title>
+    <style>
+        #capa{
+            padding: 100px;
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div onmouseover="rojo()"; id="capa">
+        Hola
+    </div>
+    <button onclick="rojo()"; id="btn-rojo">rojo</button>
+    <button onclick="amarillo()"; id="btn-amarillo">Amarillo</button>
+    <button onclick="verde()"; id="btn-verde">verde</button>
+    <button onclick="ocultar()"; id="btn-ocul">ocultar</button>
+    <button onclick="mostrar()"; id="btn-mos">mostrar</button>
+    <script>
+        function rojo(){
+            document.getElementById("capa").style.background = "red";
+        }
+
+        function amarillo(){
+            document.getElementById("capa").style.background = "yellow";
+        }
+
+        function verde(){
+            document.getElementById("capa").style.background = "green";
+        }
+
+        function ocultar(){
+            document.getElementById("capa").style.visibility = 'hidden';
+        }
+
+        function mostrar(){
+            document.getElementById("capa").style.visibility = 'visible';
+        }
+    </script>
+</body>
+</html>
